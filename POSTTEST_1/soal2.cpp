@@ -12,10 +12,8 @@ int main() {
     }
 
     int jumlah = 0;
-    for (int baris = 0; baris < 3; baris += 2) {
-        for (int kolom = 0; kolom < 3; kolom++) {
-            jumlah += matriks[baris][kolom];
-        }
+    for (int kolom = 0; kolom < 3; kolom++) {
+        jumlah += matriks[1][kolom]; 
     }
 
     cout << "Matriks 3x3:" << endl;
@@ -28,3 +26,4 @@ int main() {
 
     cout << "Jumlah elemen baris genap = " << jumlah << endl;
 }
+
